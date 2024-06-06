@@ -12,7 +12,7 @@ public class Calculator {
                 break;
             case "/":
                 if (number2!=0) {
-                    System.out.println(number1 /number2);
+                    System.out.println((double)number1 /number2);
                 }
                 else{
                     System.out.println("Khong the chia cho 0");

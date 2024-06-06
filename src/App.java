@@ -7,11 +7,11 @@ public class App {
         year.CheckLeapYear(2013);
         year.CheckLeapYear(1000);
         //máy tính
-        Calculator calculator = new Calculator();
+        Calculator calculator = new Calculator(); 
         calculator.CalculatorInterger("+", 9, 8);
         calculator.CalculatorInterger("-", 9, 8);
         calculator.CalculatorInterger("*", 9, 8);
-        calculator.CalculatorInterger("/", 9,9);
+        calculator.CalculatorInterger("/", 8,2);
         calculator.CalculatorInterger("/", 9, 0);
         calculator.CalculatorInterger("", 9, 88);
        //songuyenlonnhat
