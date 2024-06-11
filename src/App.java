@@ -20,7 +20,7 @@ public class App {
         System.out.println("So lon nhat la: " + max);
         //tìm x
         Equation equation = new Equation();
-        equation.CalculateQuadratic(0, 0, 6);
+        equation.CalculateQuadratic(0, 0, 0);
         equation.CalculateQuadratic(4, 5, 6);
         equation.CalculateQuadratic(0, 3, 9);
         equation.CalculateQuadratic(1, -4,4);

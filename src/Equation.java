@@ -2,14 +2,18 @@
 
 public class Equation {
     public void CalculateQuadratic(int a,int b, int c){
-         
-        if(a==0&&b==0){
+         if(a==0&&b==0&&c==0){
+            System.out.println("Phuong trinh vo so nghiem");
+
+         }
+        else if(a==0&&b==0){
             System.out.println("Phuong trinh vo nghiem");
         }
         else if(a==0){
             double x = -c/b;
             System.out.println("Phuong trinh co mot nghiem la: " + x);
         }
+        
         else {
             double delta = b*b - 4 *a*c;
             if(delta>0){
